@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "SDL.h"
 #include "SDL_image.h"
 
@@ -46,5 +48,6 @@ int main(int argc, char* argv[])
 
   SDL_BlitSurface(image, 0, screen, 0);
 
+  exit 0;
   return 0;
 }
