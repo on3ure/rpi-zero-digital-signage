@@ -1,4 +1,4 @@
 #!/bin/bash
 
-node singleplage.js &
+node weepee.js &
 http-server -p 1234
